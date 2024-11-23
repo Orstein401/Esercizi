@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Landing page per azienda di tecnologia">
+     <link rel="stylesheet" href="style.css">
+     <title>Landing Page Azienda</title>
+ </head>
+ <body>
+     <header>
+          <div class="bara_nav">
+            <img class="logo" src="img/logo.png" alt="Logo">
+            <nav class="menu">
+                    <ul>
+                         <li><a href="#home">Home</a></li>
+                         <li><a href="#about">About us</a></li>
+                         <li><a href="#service">Service</a></li>
+                    </ul>
+            </nav>
+            <a class="button_menu" href="#contatti">Contacts</a>
+            <div class="tenda" onclick="menu()">
+               <span></span>
+               <span></span>
+               <span></span>
+           </div>
+          </div>
+     </header>
+     <main>
+          <div class="hero" id="home">
+               <img class="hero_img" src="img/hero_img.jpg" alt="hero immagine">
+               <div class="overlay"></div>
+               <h1>Scopri i nostri Servizi</h1>
+               <a href="" class="button">Scopri di più</a>
+          </div>
+     </main>
+     <div id="service">
+          <h2 class="title"> Services </h2>
+          <div class="box">
+               <div class="col_33">
+                    <h3>Sviluppo Software su Misura</h3>
+                    <p> Offriamo soluzioni software personalizzate per soddisfare le esigenze uniche del tuo business. Dallo sviluppo di applicazioni aziendali a soluzioni integrate, il nostro team esperto è in grado di creare software scalabili e sicuri, progettati per ottimizzare i processi aziendali. </p>
+               </div>
+               <div class="col_33">
+                    <h3>Consulenza IT e Strategie Digitali</h3>
+                    <p> La nostra consulenza IT ti aiuta a prendere decisioni informate riguardo alla trasformazione digitale della tua azienda. Offriamo supporto in ogni fase, dalla progettazione alla implementazione di strategie digitali, ottimizzando infrastrutture e tecnologie per incrementare la produttività.</p>
+               </div>
+               <div class="col_33">
+                    <h3>Soluzioni Cloud Avanzate</h3>
+                    <p> Semplifica la gestione dei tuoi dati e delle tue applicazioni con le nostre soluzioni cloud sicure e scalabili. Offriamo piattaforme cloud personalizzate, che permettono di ridurre i costi operativi e migliorare l'accessibilità delle informazioni, senza compromettere la sicurezza.</p>
+               </div>
+          </div>
+     </div>
+      <div id="about">
+          <h2 class="title">Chi siamo</h2>
+          <div class="about_conteiner">
+               <p>La nostra azienda è un punto di riferimento nel settore tecnologico, con una lunga esperienza nella creazione di soluzioni software su misura per le imprese di ogni dimensione e settore. Da oltre [numero] anni, ci impegniamo a supportare i nostri clienti nel loro percorso di trasformazione digitale, offrendo innovazione, affidabilità e competenza. La nostra missione è quella di rendere la tecnologia accessibile e potente, in modo che le aziende possano affrontare le sfide del futuro con maggiore agilità e successo.</p>
+               <p>In un mondo in continua evoluzione, dove il cambiamento è l'unica costante, il nostro team di esperti è in grado di progettare e implementare soluzioni che rispondono alle esigenze specifiche di ciascun cliente. Ci focalizziamo sulla creazione di software personalizzati che ottimizzano i processi aziendali, riducono i costi operativi e migliorano l'efficienza delle operazioni quotidiane. Dall'automazione dei flussi di lavoro alla gestione dei dati aziendali, ogni progetto è una sfida che affrontiamo con passione e determinazione.</p>
+               <div class="about_extra close">
+                    <p>Il nostro approccio è basato su una costante attenzione all'innovazione e alla ricerca di soluzioni tecnologiche all'avanguardia. Offriamo piattaforme scalabili e sicure, progettate per crescere insieme al business del cliente, consentendo alle aziende di adattarsi rapidamente ai cambiamenti del mercato e alle nuove opportunità. Grazie alla nostra expertise in cloud computing, intelligenza artificiale, e big data, siamo in grado di creare sistemi che non solo soddisfano le necessità attuali, ma anticipano anche le sfide future.</p>
+                    <p>Siamo profondamente convinti che la tecnologia debba avere un impatto positivo sulla società e sull'ambiente. Per questo, ogni nostra soluzione è pensata per promuovere la sostenibilità, l'efficienza energetica e il rispetto per l'ambiente. Crediamo che il progresso tecnologico debba andare di pari passo con una crescita responsabile, in grado di creare valore sia per le imprese che per la comunità in generale.</p>
+                    <p>Ogni giorno, ci impegniamo a rendere le aziende più competitive, migliorando i loro processi, ottimizzando le risorse e, soprattutto, permettendo loro di concentrarsi sull'innovazione e sulla crescita. Con un team di professionisti altamente qualificati, siamo pronti a supportare ogni cliente nella realizzazione dei propri obiettivi, con una visione condivisa di successo e progresso continuo.</p>
+               </div>
+               <button class="button" onclick="nascondi_scopri('.about_extra')">Altro</button>
+          </div>
+      </div>
+      <div id="contatti">
+          <h2 class="title"> Contattaci </h2>
+          <form>
+               <input id="nome" name="username" type="text" placeholder="Nome">
+               <input id="email" name="email" type="email" placeholder="email">
+               <textarea id="messaggio" name="messaggio" placeholder="Scrivi il tuo messaggio" required></textarea>
+               <button type="submit">Invio</button>
+          </form>
+      </div>
+      <footer>
+          <p>Tel: 11111111</p>
+          <p>instagram: <a href="insta" target="_blank">insta</a></p>
+          <p>email: email@gmail.com</p>
+          <p>&copy; 2024 Tutti i diritti riservati.</p>
+      </footer>
+      <script src="script.js"></script>
+ </body>
+</html>
