@@ -1,14 +1,82 @@
 <!DOCTYPE html>
-<html>
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="description" content="pratiche con type">
-     <link rel="stylesheet" href="style.css">
-     <title>Pratiche con typescript</title>
- </head>
- <body>
-    
-      <script src="script.js"></script>
- </body>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovanni Zero - Copywriter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Home Iniziale -->
+<div id="initial-home" class="initial-home">
+    <div class="container">
+        <h1>Giovanni Zero</h1>
+        <p>Copywriter per aziende ad alto potenziale</p>
+        <button id="enter-site" class="cta-button">Entra</button>
+    </div>
+</div>
+
+<!-- Sito Completo -->
+<div id="main-site" class="main-site hidden">
+    <!-- Home Section -->
+    <section class="home">
+        <div class="container">
+            <h1>Giovanni Zero - Copywriter</h1>
+            <p>Benvenuti nel Mondo del Copywriting</p>
+            <p>Soluzioni creative per comunicare il tuo potenziale.</p>
+        </div>
+    </section>
+
+    <!-- Servizi Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>I Miei Servizi</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Copywriting Persuasivo</h3>
+                    <p>Testi che catturano l’attenzione e ispirano all’azione.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Strategia di Comunicazione</h3>
+                    <p>Soluzioni su misura per il tuo brand.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Content Marketing</h3>
+                    <p>Progetti che raccontano la tua storia con successo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Il Mio Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Progetto 1">
+                <h3>Progetto 1</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Progetto 2">
+                <h3>Progetto 2</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <h2>Guarda il mio lavoro</h2>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Giovanni Zero - Copywriter</p>
+    </footer>
+</div>
+
+<script src="sc.js"></script>
+</body>
 </html>
